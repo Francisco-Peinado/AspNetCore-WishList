@@ -19,7 +19,7 @@ namespace WishList
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddDbContext<ApplicationDbcontext>(options => options.UseInMemoryDatabase("WhisList"));
+            services.AddDbContext<ApplicationDbContext>(options => options.UseInMemoryDatabase("WhisList"));
 
         }
 
